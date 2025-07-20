@@ -74,8 +74,7 @@ spec:
     spec:
       containers:
       - name: backend
-        image: devopsbharathi/vijay-backend:latest # Replace with your built image
-        imagePullPolicy: Always
+        image: devopsbharathi/vijay-backend:<IMAGE_TAG> # Replace with your built image
         ports:
         - containerPort: 5000
         env:
@@ -117,8 +116,7 @@ spec:
     spec:
       containers:
       - name: frontend
-        image: devopsbharathi/vijay-frontend:latest # Assuming Nginx serving frontend
-        imagePullPolicy: Always
+        image: devopsbharathi/vijay-frontend:<IMAGE_TAG>       # Assuming Nginx serving frontend
         ports:
         - containerPort: 80
 ---
