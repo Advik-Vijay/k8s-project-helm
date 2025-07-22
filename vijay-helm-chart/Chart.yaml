@@ -1,0 +1,4 @@
+apiVersion: v2
+name: knowledge-acquisition-app
+description: A Helm chart for deploying frontend, backend, and DB apps
+version: 0.1.0

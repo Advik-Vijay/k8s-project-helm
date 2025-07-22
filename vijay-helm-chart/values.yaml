@@ -1,0 +1,9 @@
+image:
+  backend: devopsbharathi/vijay-backend:v1
+  frontend: devopsbharathi/vijay-frontend:v1
+
+db:
+  rootPassword: rootpassword
+  database: knowledge_acquisition
+  user: admin
+  password: Adminvijay12345
